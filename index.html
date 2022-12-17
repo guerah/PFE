@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="style.css">
+       <script src="index.js" async></script>
+</head>
+<body>
+  
+      
+        <h1 class="tm-site-name" style="position: fixed; color: white; margin-left: 144px;">ECO NATURE</h1>
+
+      <div class="tm-container">
+        <div class="tm-row" style="
+        margin-top: 123px;
+      ">
+      <div class="tm-left">
+        <div class="tm-left-inner">
+          
+          <nav class="tm-site-nav">
+            <ul class="tm-site-nav-ul">
+              <li class="tm-page-nav-item">
+                <a href="#produit" class="tm-page-link"  onclick="fade()">
+                  <i class="fas fa-mug-hot tm-page-link-icon"></i>
+                  <span>NOS PRODUITS</span>
+                </a>
+              </li>
+              <li class="tm-page-nav-item">
+                <a href="#about" class="tm-page-link">
+                  <i class="fas fa-users tm-page-link-icon"></i>
+                  <span>&ensp; &ensp;A PROPOS</span>
+                </a>
+              </li>
+              <li class="tm-page-nav-item">
+                <a href="#contact" class="tm-page-link">
+                  <i class="fas fa-comments tm-page-link-icon"></i>
+                  <span> Nous CONTACTER</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>        
+      </div>
+      <div class="tm-right">
+        <main class="tm-main">
+          <div id="produit" class="tm-page-content">
+            <nav class="tm-black-bg tm-alim-nav">
+              <ul>
+               
+                <li>
+                  <a href="#" class="tm-tab-link" data-id="hot">Complément alimentaire</a>
+                </li>
+                <li>
+                  <a href="#odeur" class="tm-tab-link" onclick="odeurFunction()" data-id="senteur">Odeur et senteur</a>
+                </li>
+              </ul>
+            </nav>
+
+            <div id="aliment" class="tm-tab-content">
+              <div class="tm-list">
+                <div class="tm-list-item">          
+                  <img src="Ganola.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Granola<span class="tm-list-item-price">25Dt</span></h3>
+                    <p class="tm-list-item-description">Commencez sa journée par du Granola c’est faire le plein d’énergie et de vitalité tout au long de la journée.</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="biscuit.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Biscuit Granola<span class="tm-list-item-price">12.50Dt</span></h3>
+                    <p class="tm-list-item-description">L'inimitable biscuit nappé ou cookie pour se faire plaisir. Si fondant, si sablé, si chocolaté... Granola, ça cache toujours quelque chose d'EXTRA !</p>
+                  </div>
+                </div> 
+                <div class="tm-list-item">          
+                  <img src="praline.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Sesame et noisette<span class="tm-list-item-price">40Dt</span></h3>
+                    <p class="tm-list-item-description">Un pur moment de nostalgie. Cette délicatesse est préparée soigneusement avec un mélange de graines de sésame, et noisette.</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="pistache.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Sesame pistache<span class="tm-list-item-price">55Dt</span></h3>
+                    <p class="tm-list-item-description"> Cette délicatesse est préparée soigneusement avec un mélange de pistaches et miel sauvage.Sans conservateur et sans colorants.</p>
+                  </div>
+                </div> 
+                </div>
+            </div> 
+            <div id="senteur" class="tm-tab-content">
+              <div class="tm-list">
+                <div class="tm-list-item">          
+                  <img src="huile-essentielle-1.jpg" alt="Image" class="tm-list-item-img">
+                  <div id ="odeur" class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">HUILE ESSENTIELLE DE BERGAMOTE<span class="tm-list-item-price">12.50Dt</span></h3>
+                    <p class="tm-list-item-description">Calmante, l'huile essentielle de Bergamote apaise les esprits grâce à son parfum délicat. Purifiante, l'huile essentielle de Bergamote est merveilleuse en diffusion. L'huile essentielle de Bergamote assainit l'air tout en apportant relaxation et bonne humeur.</p>              
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="monoi.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">HUILE ESSENTIELLE DE BOIS DE GAÏAC<span class="tm-list-item-price">$14.50</span></h3>
+                    <p class="tm-list-item-description">L'huile essentielle de bois de Gaïac aux vertus tonifiantes est connue pour apporter légèreté à vos jambes. L'huile essentielle de bois de Gaïac exhale une senteur suave et boisée très prisée pour parfumer les soins. En diffusion, diluée dans une autre huile, l'huile essentielle de bois de Gaïac libère un parfum exotique et sensuel envoûtant.</p>                    
+                  </div>
+                </div>
+               
+                     
+              </div>
+            </div>
+          </div>
+          <div id="about" class="tm-page-content" style="margin-top: 32px;">
+            <div class="tm-black-bg tm-mb-20 tm-about-box-1">              
+              <h2 class="tm-text-primary tm-about-header">A propos Eco nature</h2>
+              <div class="tm-list-item tm-list-item-2">                
+                <img src="logo.png" alt="Image" class="tm-list-item-img tm-list-item-img-big">
+                <div class="tm-list-item-text-2">
+                  <p>Nos recherches nous ont conduit à comprendre rapidement que la nutrition et l'environnement dans lequel nous vivons avaient une influence non négligeable sur la santé de l'homme et l'animal.</p>
+                  <p> Nous avons développé plusieurs gammes de produits avec des informations spécifiques par domaine d'application .</p>
+                </div>                
+              </div>
+            </div>
+            
+          </div>
+          <div id="contact" class="tm-page-content">
+            <div class="tm-black-bg tm-contact-text-container">
+              <h2 class="tm-text-primary"> Nous Contacter </h2>
+              <p>Nous souhaitons que chacun de nos clients soit satisfait de nos services.vous accompagner dans la compréhension de vos besoins et vous orienter, Econature se tient à votre disposition pour répondre à vos questions par téléphone ou par mail si vous souhaitez passer commande, réaliser un devis ou tout autre type de demande, nous sommes là pour vous aider.</p>
+         </div>
+        
+            <div class="tm-black-bg tm-contact-form-container tm-align-right">
+              <form  >
+                <div class="tm-form-group">
+                  <input type="text" name="Nom" class="tm-form-control" placeholder="Nom" required="" id="name"/>
+                </div>
+                <div class="tm-form-group">
+                  <input type="email" name="email" class="tm-form-control" placeholder="Email" required="" id="email"/>
+                </div>   
+                <div class="tm-form-group">
+                  <input type="number" name="numéro de telephone" class="tm-form-control" placeholder="numéro de telephone" required="" id="mobil" />
+      
+                </div> 
+
+                <div class="tm-form-group tm-mb-30">
+                  <textarea rows="6" name="message" class="tm-form-control" placeholder="Message" required="" id="message"></textarea>
+                </div>        
+                <div>
+                  <button type="button" class="tm-btn-primary tm-align-right" onclick="popup()">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </main>
+      </div>    
+    </div>
+  </div>
+    
+  <div class="tm-video-wrapper">
+      <i id="tm-video-control-button" class="fas fa-pause"></i>
+      <video autoplay muted loop id="tm-video">
+          <source src="rain.mp4" type="video/mp4">
+      </video>
+  </div>  
+ 
+</body>
+</html>
